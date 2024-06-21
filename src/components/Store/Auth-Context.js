@@ -34,7 +34,7 @@ export const AuthContextProvider = (props) => {
       }, 300000);
 
 
-  };
+  };    
 
   const usrLoggedOut = () => {
     setToken(null);
